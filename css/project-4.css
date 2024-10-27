@@ -1,0 +1,213 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	padding: 30px 0px;
+	border-bottom: 1px solid #5c5c5c;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo img{
+	height: 100px;
+	width: 100px;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 100px;
+	margin-left: 20px;
+}
+
+
+.menu ul li a{
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	position: relative;
+}
+
+.menu ul li a::before{
+	position: absolute;
+	content: '';
+	height: 4px;
+	width: 0%;
+	background-color: #008aff;
+	bottom: -4px;
+	left: 0;
+	transition: 0.25s;
+}
+
+.menu ul li a:hover::before{
+	width: 100%;
+	transition: 0.25s;
+}
+
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.banner-content h1{
+	font-family: "Roboto", sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	color: #0f2656;
+	padding-bottom: 10px;
+}
+
+.banner-content h1 span{
+	color: #0081ff;
+}
+
+.banner-content p{
+	font-family: "Afacad Flux", sans-serif;
+	font-size: 16px;
+	color: black;
+	margin: 20px 200px;
+}
+
+.banner-content img{
+	width: 500px;
+}
+
+.about{
+	width: 100%;
+	padding: 40px 0;
+}
+
+.about-content{
+	display: flex;
+}
+
+.a-left, .a-right{
+	flex-basis: 50%;
+}
+
+.a-left{
+	text-align: right;
+	margin-right: 20px;
+}
+
+.a-left h2{
+	font-family: "Roboto", sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	color: #F15767;
+	margin-bottom: 10px;
+}
+
+.a-left p{
+	font-family: "Afacad Flux", sans-serif;
+	font-size: 16px;
+	color: black;
+	line-height: 26px;
+}
+
+.a-right{
+	margin-left: 20px;
+}
+
+.a-right h2{
+	font-family: "Roboto", sans-serif;
+	font-size: 42px;
+	color: #0f2656;
+
+}
+
+.service{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.service-content{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.pink{
+	background-color: #fdebed;
+}
+
+.green{
+	background-color: #ebf9f4;
+}
+
+.yellow{
+	background-color: #fff7e8;
+}
+
+.item{
+	margin: 16px;
+	border-radius: 8px;
+	transition: 0.5s;
+}
+
+.item:hover{
+	transform: translateY(-15px) translateX(-15px);
+	transition: 0.5s;
+}
+
+.item div{
+	padding: 32px 16px;
+}
+
+.pink h3, .yellow h3{
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	margin-bottom: 16px;
+}
+
+.green h3{
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	padding-top: 24px;
+	margin-bottom: 16px;
+}
+
+.pink p, .green p, .yellow p{
+	font-family: "Afacad Flux", sans-serif;
+	font-size: 16px;
+}
+
+footer{
+	width: 100%;
+	background-color: #008aff;
+	text-align: center;
+	padding: 30px 0px;
+}
+
+footer p{
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+
+
+
+
+
+/*
+font-family: "Afacad Flux", sans-serif;
+font-family: "Roboto", sans-serif;
+
+*/
